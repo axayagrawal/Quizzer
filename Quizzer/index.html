@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quizzer</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	<!-- HEADER -->
+	<div class="header">
+		<img src="logo.svg" id="logo">
+		<span id="scoret">Your Score:</span>
+		<span id="scoreno">4840</span>
+
+		<span class="nav">
+			<a href="#explore">Explore</a>
+			<a href="#myQuizzes">My Quizzes</a>
+			<a href="#scoreboard">Scoreboard</a>
+		</span>
+
+		<img src="profile.png" id="profile">
+	</div>
+	
+	<!-- CATEGORY -->
+	<div class="category">
+		<input type="text" name="category" id="subc" value="Entertainment" readonly=""><br>
+		<input type="text" name="category" id="topic" value="Game Of Thrones - Quiz I" readonly="">
+	</div>
+
+	<!-- MCQ -->
+	<div class="mcqs">
+		<div class="container">
+			<form class="form">
+				<input type="text" name="question" id="ques" value="How did Daenerys Targaryen eventually hatch her dragon eggs?" readonly=""><br>
+
+			<div id="options">
+				<div class="option" style="display: inline-block;" id="l1">
+
+					<input type="radio" name="a" id="a1" class="bleh"><span id="optionLabel"><label for="a1">In a lighting storm</label></span>
+				
+				</div>
+
+				<div class="option" style="display: inline-block;" id="b1">
+
+					<input type="radio" name="a" id="a2" class="bleh"><span id="optionLabel"><label for="a2">In a funeral pyre</label></span>
+				
+				</div>
+				<br>
+
+				<div class="option" style="display: inline-block;" id="l1">
+
+					<input type="radio" name="a" id="a3" class="bleh"><span id="optionLabel"><label for="a3">In a fireplace</label></span>
+				
+				</div>
+
+				<div class="option" style="display: inline-block;">
+
+					<input type="radio" name="a" id="a4" class="bleh"><span id="optionLabel"><label for="a4">In a frozen cave</label></span>
+				
+				</div>
+
+			</div>
+
+				
+			</form>
+		</div>
+
+
+		<div class="container">
+			<form class="form">
+				<input type="text" name="question" id="ques" value="Theon Greyjoy was given a new name by Ramsay Bolton. What was it?" readonly=""><br>
+
+			<div id="options">
+				<div class="option" style="display: inline-block;" id="l1">
+
+					<input type="radio" name="a" id="c1" class="bleh"><span id="optionLabel"><label for="c1">Reek</label></span>
+				
+				</div>
+
+				<div class="option" style="display: inline-block;" id="b1">
+
+					<input type="radio" name="a" id="c2" class="bleh"><span id="optionLabel"><label for="c2">Freak</label></span>
+				
+				</div>
+				<br>
+
+				<div class="option" style="display: inline-block;" id="l1">
+
+					<input type="radio" name="a" id="c3" class="bleh"><span id="optionLabel"><label for="c3">Leak</label></span>
+				
+				</div>
+
+				<div class="option" style="display: inline-block;">
+
+					<input type="radio" name="a" id="c4" class="bleh"><span id="optionLabel"><label for="c4">Creep</label></span>
+				
+				</div>
+
+			</div>
+
+				
+			</form>
+		</div>
+
+
+		<div class="container">
+			<form class="form">
+				<input type="text" name="question" id="ques" value="When an assassin attempts to murder Bran, he is saved by:" readonly=""><br>
+
+			<div id="options">
+				<div class="option" style="display: inline-block;" id="l1">
+
+					<input type="radio" name="a" id="d1" class="bleh"><span id="optionLabel"><label for="d1">Summer</label></span>
+				
+				</div>
+
+				<div class="option" style="display: inline-block;" id="b1">
+
+					<input type="radio" name="a" id="d2" class="bleh"><span id="optionLabel"><label for="d2">Catelyn</label></span>
+				
+				</div>
+				<br>
+
+				<div class="option" style="display: inline-block;" id="l1">
+
+					<input type="radio" name="a" id="d3" class="bleh"><span id="optionLabel"><label for="d3">Tyrion</label></span>
+				
+				</div>
+
+				<div class="option" style="display: inline-block;">
+
+					<input type="radio" name="a" id="d4" class="bleh"><span id="optionLabel"><label for="d4">Maester Luwin</label></span>
+				
+				</div>
+
+			</div>
+
+				
+			</form>
+		</div>
+
+
+		<div class="container">
+			<form class="form">
+				<input type="text" name="question" id="ques" value="Jeor Mormont gives his family sword to:" readonly=""><br>
+
+			<div id="options">
+				<div class="option" style="display: inline-block;" id="l1">
+
+					<input type="radio" name="a" id="e1" class="bleh"><span id="optionLabel"><label for="e1">Jon Snow</label></span>
+				
+				</div>
+
+				<div class="option" style="display: inline-block;" id="b1">
+
+					<input type="radio" name="a" id="e2" class="bleh"><span id="optionLabel"><label for="e2">Robb Stark</label></span>
+				
+				</div>
+				<br>
+
+				<div class="option" style="display: inline-block;" id="l1">
+
+					<input type="radio" name="a" id="e3" class="bleh"><span id="optionLabel"><label for="e3">Daenerys Targaryen</label></span>
+				
+				</div>
+
+				<div class="option" style="display: inline-block;">
+
+					<input type="radio" name="a" id="e4" class="bleh"><span id="optionLabel"><label for="e4">Arya Stark</label></span>
+				
+				</div>
+
+			</div>
+
+				
+			</form>
+		</div>
+
+		
+		<div class="container">
+			<form class="form">
+				<input type="text" name="question" id="ques" value="Gregor Clegane is known as:" readonly=""><br>
+
+			<div id="options">
+				<div class="option" style="display: inline-block;" id="l1">
+
+					<input type="radio" name="a" id="f1" class="bleh"><span id="optionLabel"><label for="f1">The Muntain</label></span>
+				
+				</div>
+
+				<div class="option" style="display: inline-block;" id="b1">
+
+					<input type="radio" name="a" id="e2" class="bleh"><span id="optionLabel"><label for="e2">Cleg</label></span>
+				
+				</div>
+				<br>
+
+				<div class="option" style="display: inline-block;" id="l1">
+
+					<input type="radio" name="a" id="f3" class="bleh"><span id="optionLabel"><label for="f3">The Mound</label></span>
+				
+				</div>
+
+				<div class="option" style="display: inline-block;">
+
+					<input type="radio" name="a" id="f4" class="bleh"><span id="optionLabel"><label for="f4">The Hound</label></span>
+				
+				</div>
+
+			</div>
+
+				
+			</form>
+		</div>
+
+		
+		<div class="container">
+			<form class="form">
+				<input type="text" name="question" id="ques" value="Which character has molten gold poured over his head?" readonly=""><br>
+
+			<div id="options">
+				<div class="option" style="display: inline-block;" id="l1">
+
+					<input type="radio" name="a" id="g1" class="bleh"><span id="optionLabel"><label for="g1">Viserys Targaryen</label></span>
+				
+				</div>
+
+				<div class="option" style="display: inline-block;" id="b1">
+
+					<input type="radio" name="a" id="g2" class="bleh"><span id="optionLabel"><label for="g2">Ned Stark</label></span>
+				
+				</div>
+				<br>
+
+				<div class="option" style="display: inline-block;" id="l1">
+
+					<input type="radio" name="a" id="e3" class="bleh"><span id="optionLabel"><label for="e3">Khal Drogo</label></span>
+				
+				</div>
+
+				<div class="option" style="display: inline-block;">
+
+					<input type="radio" name="a" id="e4" class="bleh"><span id="optionLabel"><label for="e4">Jamie Lanister</label></span>
+				
+				</div>
+
+			</div>
+
+				
+			</form>
+		</div>
+
+		
+
+		<div class="playp">
+
+		<input type="button" name="play" id="play" value="Play On" readonly=""><br>
+		<input type="button" name="end" id="end" value="Submit" readonly="">
+	</div>
+
+	</div>
+
+
+
+	
+
+<!-- FOOTER -->
+
+<!-- <div class="footer">
+	<div class="footerl">
+		<div class="column ">
+		<p id="tagline">Know how <br>much you know <span style="color: #F2C94C">!</span></p id="tagline">
+		<img src="logo.svg" id="logof">
+	</div>
+	<div class="column">
+	<section class="fcat">
+		<p id="fcat1">Categories</p>
+		<ul class="catlist">
+			<li>General Knowledge</li>
+			<li>Movies</li>
+			<li>Music</li>
+			<li>Entertainment</li>
+			<li>Politics</li>
+			<li>Geography</li>
+			<li>History</li>
+			<li>Popculture</li>
+			<li>Science</li>
+			<li>TV</li>
+			<li>Books</li>
+		</ul>
+
+	</section>
+	</div>
+
+	<section class="fcat">
+		<p id="fcat1">Popular Quizzes</p>
+		<ul class="catlist">
+			<li>F.R.I.E.N.D.S</li>
+			<li>Game Of Thrones</li>
+			<li>Bollywood</li>
+		</ul>
+			<p id="fcat1">My Quizzes</p>
+		<ul class="catlist">
+			<li>Rankings</li>
+			<li>Timeline</li>
+		</ul>
+
+
+	</section>
+	<div class="footerr">
+			<p id="follow">Follow us on <span style="color: #9B51E0">:</span></p>
+			<div class="row1">
+				  <div class="columnr">
+				    <img src="fb.png" alt="Snow" style="width:100%">
+				  </div>
+				  <div class="columnr">
+				    <img src="ins.png" alt="Forest" style="width:100%">
+				  </div>
+				  <div class="columnr">
+				    <img src="tw.png" alt="Mountains" style="width:100%">
+				  </div>
+				  <div class="columnr">
+				    <img src="yt.png" alt="Mountains" style="width:100%">
+				  </div>
+			</div>
+			<p id="follow">Also on <span style="color: #9B51E0">:</span></p>
+			<div class="row2">
+				  <div class="columnr2">
+				    <img src="play.png" alt="Snow" style="width:100%">
+				  </div>
+				  <div class="columnr2">
+				    <img src="app.png" alt="Forest" style="width:100%">
+				  </div>
+
+			</div>
+	</div>
+	</div>
+
+</div> -->
+</body>
+</html>
